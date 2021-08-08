@@ -1,0 +1,29 @@
+CREATE DATABASE ytclass;
+
+CREATE TABLE student
+(
+id int NOT NULL AUTO_INCREMENT,
+name varchar(20),
+class varchar(80),
+section varchar(70),
+rollno varchar(70),
+code varchar(70),
+PRIMARY KEY (id),
+UNIQUE id (id)
+);
+
+
+CREATE TABLE attendance
+(
+id int NOT NULL AUTO_INCREMENT,
+name varchar(20),
+class varchar(80),
+section varchar(70),
+rollno varchar(70),
+code varchar(70),
+attendance varchar(70),
+attendancetime varchar(70),
+attendanceproof varchar(70),
+PRIMARY KEY (id),
+UNIQUE id (id)
+);
